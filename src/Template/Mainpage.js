@@ -1,13 +1,15 @@
 import React from 'react';
-import { Page } from './Style';
+import * as S from './Style';
 import Header from '../components/Header/Header';
+import Footer from '../components/Footer/Footer';
 
 const MainPage = () => {
 
     return (
-        <Page>
+        <S.Page>
             <Header />
-        </Page>
+            <Footer />
+        </S.Page>
     );
 };
 
