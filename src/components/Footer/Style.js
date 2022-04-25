@@ -9,7 +9,6 @@ export const Positioner = styled.footer`
     background: #2F2C2C;
     justify-content: flex-end;
     position : relative;
-    transform : translateY(1920px);
 `;
 
 export const Title = styled.div`
