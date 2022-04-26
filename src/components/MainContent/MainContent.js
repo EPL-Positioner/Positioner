@@ -6,6 +6,8 @@ import CreateButton from '../CreateButton/Button';
 import SoccerSquare from '../../assets/Soccer.png';
 import Sonny from '../../assets/Photo.png';
 import ShareIcon from '../../assets/ShareIcon.png';
+import Tottenham from '../../assets/Tottenham11.png';
+import Chelsea from '../../assets/Chelsea11.png';
 
 const MainContent = () => {
     return (
@@ -66,7 +68,41 @@ const MainContent = () => {
                 </S.Boxes>
             </S.FirstPage>
             <S.MiddleBar />
-            <S.SecondPage />
+            <S.SecondPage>
+            <S.TopBar />
+                <S.Boxes>
+                    <S.RightBox>
+                        <S.LeftTopSquareSetting>
+                            <S.LeftTopSquare>
+                                <S.LeftTopSquareTitle>
+                                    The only formation creater with photos of all epl players
+                                </S.LeftTopSquareTitle>
+                                <S.LeftTopSquareDetail>
+                                    Download your squad and share with your friends
+                                </S.LeftTopSquareDetail>
+                            </S.LeftTopSquare>
+                        </S.LeftTopSquareSetting>
+                        <S.LeftMiddleSquareSetting>
+                            <S.LeftMiddleSquare>
+                                <S.LeftMiddleSquareDetail>
+                                    Easily create your football team in our soccer tatics and formation tools.
+                                </S.LeftMiddleSquareDetail>
+                            </S.LeftMiddleSquare>
+                        </S.LeftMiddleSquareSetting>
+                        <S.LeftBottomSquareSetting>
+                            <S.LeftBottomSquare>
+                                <S.LeftBottomSquareButton>
+                                    <CreateButton />
+                                </S.LeftBottomSquareButton>
+                            </S.LeftBottomSquare>
+                        </S.LeftBottomSquareSetting>
+                    </S.RightBox>
+                    <S.LeftBox>
+                        <S.Tottenham11 src={Tottenham} />
+                        <S.Chelsea11 src={Chelsea} />
+                    </S.LeftBox>
+                </S.Boxes>
+            </S.SecondPage>
         </>
     );
 };

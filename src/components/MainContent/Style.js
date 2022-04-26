@@ -148,4 +148,77 @@ export const MiddleBar = styled.div`
 export const SecondPage = styled.div`
     width: 100%;
     height: 1100px;
+    padding: 45px 25px;
+    box-sizing: border-box;
+`;
+export const LeftTopSquareSetting = styled.div`
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+`;
+export const LeftTopSquare = styled.div`
+    width: 750px;
+    height: 90px;
+    background: white;
+    padding: 20px 50px;
+`;
+export const LeftTopSquareTitle = styled.div`
+    font-weight: 800;
+    font-size: 1.7rem;
+    color: Black;
+    text-align: center;
+    margin-bottom: 13px;
+`;
+export const LeftTopSquareDetail = styled.div`
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: Black;
+    text-align: center;
+`;
+export const LeftMiddleSquareSetting = styled.div`
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+`;
+export const LeftMiddleSquare = styled.div`
+    width: 750px;
+    height: 50px;
+    background: white;
+    padding: 20px 50px;
+`;
+export const LeftMiddleSquareDetail = styled.div`
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: Black;
+    text-align: center;
+    margin-top: 10px;
+`;
+export const LeftBottomSquareSetting = styled.div`
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+`;
+export const LeftBottomSquare = styled.div`
+    width: 750px;
+    height: 50px;
+    background: white;
+    padding: 20px 50px;
+`;
+export const LeftBottomSquareButton = styled.div`
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+`;
+export const Tottenham11 = styled.img`
+    width: 420px;
+    height: 650px;
+    padding: 10px 10px;
+`;
+export const Chelsea11 = styled.img`
+    width: 420px;
+    height: 650px;
+    padding: 10px 10px;
 `;
