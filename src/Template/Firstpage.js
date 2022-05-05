@@ -2,17 +2,17 @@ import React from 'react';
 import * as S from './Style';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
-import MainContent from '../components/MainContent/MainContent';
+import MainContent from '../components/FirstPage/MainContent';
 
-const MainPage = () => {
+const Firstpage = () => {
 
     return (
-        <S.Page>
+        <S.First>
             <Header />
             <MainContent />
             <Footer />
-        </S.Page>
+        </S.First>
     );
 };
 
-export default MainPage;
+export default Firstpage;

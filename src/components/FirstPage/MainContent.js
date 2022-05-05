@@ -3,7 +3,7 @@ import * as S from './Style';
 import EplBest11 from '../../assets/EplBest11.png';
 import EplWinner11 from '../../assets/EplWinner11.png'
 import CreateButton from '../CreateButton/Button';
-import SoccerSquare from '../../assets/Soccer.png';
+import SoccerSquare from '../../assets/tatical_board.png';
 import Sonny from '../../assets/Photo.png';
 import ShareIcon from '../../assets/ShareIcon.png';
 import Tottenham from '../../assets/Tottenham11.png';

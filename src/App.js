@@ -1,14 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import CreateButton from './components/CreateButton/Button';
-import MainPage from './Template/Mainpage';
-
+import Firstpage from './Template/Firstpage';
+import Secondpage from './Template/Secondpage';
 
 function App() {
-
-  
   return (
-    <MainPage />
+    <Secondpage />
   );
 }
 
